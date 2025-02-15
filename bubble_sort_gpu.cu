@@ -4,7 +4,6 @@
 #include <cuda.h>
 #include <chrono>
 
-#define THREADS_PER_BLOCK 128
 #define MATRIX_SIZE 128
 
 // CUDA Kernel for Bubble Sort using Global Memory
